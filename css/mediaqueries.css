@@ -1,0 +1,17 @@
+@media only screen and (max-width: 975px) {
+    .aboutimg {
+      min-height: 700px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .aboutimg {
+      min-height: 1000px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .aboutimg {
+      min-height: 1200px;
+    }
+}
