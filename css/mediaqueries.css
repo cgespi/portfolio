@@ -2,16 +2,28 @@
     .aboutimg {
       min-height: 700px;
     }
+
+    .about .container img {
+        max-width: 350px;
+    }
+
+    .testrow {
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 767px) {
     .aboutimg {
-      min-height: 1000px;
+      min-height: 800px;
+    }
+
+    .testrow {
+        justify-content: center;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .aboutimg {
-      min-height: 1200px;
+      min-height: 900px;
     }
 }
